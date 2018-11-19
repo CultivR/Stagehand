@@ -11,6 +11,7 @@
 		172A00F82052055A0060DECF /* Dismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A00F72052055A0060DECF /* Dismiss.swift */; };
 		172A00FA205205720060DECF /* TransitionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A00F9205205720060DECF /* TransitionCoordinator.swift */; };
 		172A00FC2052058F0060DECF /* StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A00FB2052058F0060DECF /* StatusBar.swift */; };
+		555DA91821A263E900BD86BD /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555DA91721A263E900BD86BD /* Content.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		172A00F72052055A0060DECF /* Dismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dismiss.swift; sourceTree = "<group>"; };
 		172A00F9205205720060DECF /* TransitionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionCoordinator.swift; sourceTree = "<group>"; };
 		172A00FB2052058F0060DECF /* StatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBar.swift; sourceTree = "<group>"; };
+		555DA91721A263E900BD86BD /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				172A00EF205204FB0060DECF /* Stagehand.h */,
 				172A00F72052055A0060DECF /* Dismiss.swift */,
+				555DA91721A263E900BD86BD /* Content.swift */,
 				172A00FB2052058F0060DECF /* StatusBar.swift */,
 				172A00F9205205720060DECF /* TransitionCoordinator.swift */,
 				172A00F0205204FB0060DECF /* Info.plist */,
@@ -144,6 +147,7 @@
 				172A00FC2052058F0060DECF /* StatusBar.swift in Sources */,
 				172A00F82052055A0060DECF /* Dismiss.swift in Sources */,
 				172A00FA205205720060DECF /* TransitionCoordinator.swift in Sources */,
+				555DA91821A263E900BD86BD /* Content.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
