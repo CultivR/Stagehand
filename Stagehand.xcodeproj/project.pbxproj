@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		172A00F1205204FB0060DECF /* Stagehand.h in Headers */ = {isa = PBXBuildFile; fileRef = 172A00EF205204FB0060DECF /* Stagehand.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		172A00F82052055A0060DECF /* Dismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A00F72052055A0060DECF /* Dismiss.swift */; };
 		172A00FA205205720060DECF /* TransitionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A00F9205205720060DECF /* TransitionCoordinator.swift */; };
 		172A00FC2052058F0060DECF /* StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A00FB2052058F0060DECF /* StatusBar.swift */; };
 		555DA91821A263E900BD86BD /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555DA91721A263E900BD86BD /* Content.swift */; };
@@ -18,7 +17,6 @@
 		172A00EC205204FB0060DECF /* Stagehand.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Stagehand.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		172A00EF205204FB0060DECF /* Stagehand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stagehand.h; sourceTree = "<group>"; };
 		172A00F0205204FB0060DECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		172A00F72052055A0060DECF /* Dismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dismiss.swift; sourceTree = "<group>"; };
 		172A00F9205205720060DECF /* TransitionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionCoordinator.swift; sourceTree = "<group>"; };
 		172A00FB2052058F0060DECF /* StatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBar.swift; sourceTree = "<group>"; };
 		555DA91721A263E900BD86BD /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
@@ -55,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				172A00EF205204FB0060DECF /* Stagehand.h */,
-				172A00F72052055A0060DECF /* Dismiss.swift */,
 				555DA91721A263E900BD86BD /* Content.swift */,
 				172A00FB2052058F0060DECF /* StatusBar.swift */,
 				172A00F9205205720060DECF /* TransitionCoordinator.swift */,
@@ -102,12 +99,12 @@
 		172A00E3205204FB0060DECF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Cultivr;
 				TargetAttributes = {
 					172A00EB205204FB0060DECF = {
 						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 0920;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -145,7 +142,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				172A00FC2052058F0060DECF /* StatusBar.swift in Sources */,
-				172A00F82052055A0060DECF /* Dismiss.swift in Sources */,
 				172A00FA205205720060DECF /* TransitionCoordinator.swift in Sources */,
 				555DA91821A263E900BD86BD /* Content.swift in Sources */,
 			);
@@ -168,6 +164,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -175,6 +172,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -203,7 +201,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -228,6 +226,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -235,6 +234,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -257,7 +257,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -285,7 +285,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -307,7 +307,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cultivr.Stagehand;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

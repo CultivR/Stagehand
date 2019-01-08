@@ -14,7 +14,7 @@ extension UIViewControllerTransitionCoordinator {
             }, completion: nil)
         } else {
             let curve = UInt(completionCurve.rawValue)
-            let options = UIViewAnimationOptions(rawValue: curve << 16)
+            let options = UIView.AnimationOptions(rawValue: curve << 16)
             UIView.animate(withDuration: transitionDuration, delay: 0, options: options, animations: animations, completion: nil)
         }
     }
