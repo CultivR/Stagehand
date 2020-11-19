@@ -1,0 +1,11 @@
+framework module Stagehand {
+  umbrella header "Stagehand.h"
+
+  export *
+  module * { export * }
+}
+
+module Stagehand.Swift {
+    header "Stagehand-Swift.h"
+    requires objc
+}

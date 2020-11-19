@@ -1,0 +1,11 @@
+{
+  "commitish" : "330ceb4acf28af63c2b8d007c8dac32acbce0c36",
+  "iOS" : [
+    {
+      "hash" : "3200751d09dcc16bf3c7038c68facd0963df895b109a2f6e23d2b743342e3ad1",
+      "name" : "Stagehand",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+    }
+  ]
+}

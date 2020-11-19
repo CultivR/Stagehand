@@ -31,3 +31,10 @@ open class StatusBarAnimatingViewController: UIViewController {
         }
     }
 }
+
+extension UINavigationController {
+    // MARK: UIViewController
+    open override var childForStatusBarStyle: UIViewController? {
+        return topViewController
+    }
+}
